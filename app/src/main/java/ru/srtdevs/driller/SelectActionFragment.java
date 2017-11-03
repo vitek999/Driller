@@ -27,8 +27,12 @@ public class SelectActionFragment extends Fragment {
         View v = inflater.inflate(R.layout.select_action_fragment, container, false);
 
         mNewProjectButton = (Button) v.findViewById(R.id.new_project_btn);
+
         mOpenProjectButton = (Button) v.findViewById(R.id.open_project_btn);
+
         mLoadProjectButton = (Button) v.findViewById(R.id.load_project_btn);
+        mLoadProjectButton.setEnabled(false); //TODO: сделать активным при наличии открытого проекта
+
         mAppSettingsButton = (Button) v.findViewById(R.id.app_settings_btn);
 
         return v;
