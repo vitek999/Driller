@@ -9,20 +9,24 @@
         android:id="@+id/new_project_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/new_project_btn"
         />
 
     <Button
         android:id="@+id/open_project_btn"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="@string/open_project_btn"/>
 
     <Button
         android:id="@+id/load_project_btn"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="@string/load_project_btn"/>
     
     <Button
         android:id="@+id/app_settings_btn"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="@string/app_settings_btn"/>
 </LinearLayout>

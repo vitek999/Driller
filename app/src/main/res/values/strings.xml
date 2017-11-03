@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Driller</string>
+    <string name="new_project_btn">Создать новый проект</string>
+    <string name="open_project_btn">Открыть проект</string>
+    <string name="load_project_btn">Продолжить проект</string>
+    <string name="app_settings_btn">Настройки приложения</string>
 </resources>
