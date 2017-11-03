@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="#"/>
+        android:text="@string/short_title_tw"/>
 
     <EditText
         android:id="@+id/short_title_et"
@@ -18,7 +18,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="#"/>
+        android:text="@string/full_title_tw"/>
 
     <EditText
         android:id="@+id/full_title_et"
@@ -28,7 +28,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="#"/>
+        android:text="@string/archive_number_tw"/>
 
     <EditText
         android:id="@+id/archive_number_et"
@@ -38,7 +38,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="#"/>
+        android:text="@string/region_tw"/>
 
     <EditText
         android:id="@+id/region_et"
@@ -48,7 +48,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="#"/>
+        android:text="note_tw"/>
 
     <EditText
         android:id="@+id/note_et"

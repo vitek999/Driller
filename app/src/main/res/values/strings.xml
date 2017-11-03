@@ -1,7 +1,18 @@
 <resources>
     <string name="app_name">Driller</string>
+
     <string name="new_project_btn">Создать новый проект</string>
     <string name="open_project_btn">Открыть проект</string>
     <string name="load_project_btn">Продолжить проект</string>
     <string name="app_settings_btn">Настройки приложения</string>
+
+    <string name="short_title_tw">Название краткое</string>
+    <string name="full_title_tw">Название полное</string>
+    <string name="archive_number_tw">Архивный номер</string>
+    <string name="region_tw">Регион</string>
+    <string name="note_tw">Примечания</string>
+    <string name="start_data_tw"></string>
+    <string name="enter_btn">ВВод</string>
+    <string name="back_btn"></string>
+
 </resources>
