@@ -11,8 +11,8 @@
     <string name="archive_number_tw">Архивный номер</string>
     <string name="region_tw">Регион</string>
     <string name="note_tw">Примечания</string>
-    <string name="start_data_tw"></string>
-    <string name="enter_btn">ВВод</string>
-    <string name="back_btn"></string>
+    <string name="start_data_tw">Дата начала</string>
+    <string name="enter_btn">Ввод</string>
+    <string name="back_btn">Отмена</string>
 
 </resources>

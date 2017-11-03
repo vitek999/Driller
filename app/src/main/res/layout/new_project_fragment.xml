@@ -48,7 +48,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="note_tw"/>
+        android:text="@string/note_tw"/>
 
     <EditText
         android:id="@+id/note_et"
@@ -58,7 +58,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="#"/>
+        android:text="@string/start_data_tw"/>
 
     <EditText
         android:id="@+id/start_date_et"
@@ -69,12 +69,12 @@
         android:id="@+id/enter_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="#"/>
+        android:text="@string/enter_btn"/>
 
     <Button
         android:id="@+id/back_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="#"/>
+        android:text="@string/back_btn"/>
 
 </LinearLayout>
