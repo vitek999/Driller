@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Driller</string>
+    <string name="new_project_title">Новый проект</string>
 
     <string name="new_project_btn">Создать новый проект</string>
     <string name="open_project_btn">Открыть проект</string>
