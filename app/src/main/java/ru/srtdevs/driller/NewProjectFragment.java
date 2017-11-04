@@ -37,13 +37,21 @@ public class NewProjectFragment extends Fragment {
         View v = inflater.inflate(R.layout.new_project_fragment, container, false);
 
         mEnterButton = (Button) v.findViewById(R.id.enter_btn);
+
         mBackButton = (Button) v.findViewById(R.id.back_btn);
+        mBackButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getActivity().onBackPressed();
+            }
+        });
 
         mStartDateButton = (Button) v.findViewById(R.id.start_date_btn);
         //temporarily
         Date dt = new Date();
         dt.getTime();
         mStartDateButton.setText(dt.toString());
+        //end temporarily
 
         mStartDateButton.setOnClickListener(new View.OnClickListener() {
             @Override
