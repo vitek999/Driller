@@ -15,12 +15,12 @@ import android.widget.EditText;
 public class NewProjectFragment extends Fragment {
     private Button mEnterButton;
     private Button mBackButton;
+    private Button mStartDateButton;
     private EditText mShortTitleEditText;
     private EditText mFullTitleEditText;
     private EditText mArchiveNumberEditText;
     private EditText mRegionEditText;
     private EditText mNoteEditText;
-    private EditText mStartDateEditText;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -38,7 +38,7 @@ public class NewProjectFragment extends Fragment {
         mArchiveNumberEditText = (EditText) v.findViewById(R.id.archive_number_et);
         mRegionEditText = (EditText) v.findViewById(R.id.region_et);
         mNoteEditText = (EditText) v.findViewById(R.id.note_et);
-        mStartDateEditText = (EditText) v.findViewById(R.id.start_date_et);
+        mStartDateButton = (Button) v.findViewById(R.id.start_date_btn);
 
         return v;
     }
