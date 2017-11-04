@@ -14,5 +14,6 @@
     <string name="start_data_tw">Дата начала</string>
     <string name="enter_btn">Ввод</string>
     <string name="back_btn">Отмена</string>
+    <string name="date_picker_title">Выберите дату:</string>
 
 </resources>

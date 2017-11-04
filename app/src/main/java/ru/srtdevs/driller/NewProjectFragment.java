@@ -2,6 +2,7 @@ package ru.srtdevs.driller;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -24,6 +25,8 @@ public class NewProjectFragment extends Fragment {
     private EditText mRegionEditText;
     private EditText mNoteEditText;
 
+    private static final String DIALOG_DATE = "DialogDate";
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +44,15 @@ public class NewProjectFragment extends Fragment {
         Date dt = new Date();
         dt.getTime();
         mStartDateButton.setText(dt.toString());
+
+        mStartDateButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentManager manager = getFragmentManager();
+                DatePickerFragment dialog = new DatePickerFragment();
+                dialog.show(manager,DIALOG_DATE);
+            }
+        });
 
         mShortTitleEditText = (EditText) v.findViewById(R.id.short_title_et);
         mFullTitleEditText = (EditText) v.findViewById(R.id.full_title_et);
