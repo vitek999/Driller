@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
+import java.util.Date;
+
 /**
  * Created by виктор on 04.11.2017.
  */
@@ -33,12 +35,18 @@ public class NewProjectFragment extends Fragment {
 
         mEnterButton = (Button) v.findViewById(R.id.enter_btn);
         mBackButton = (Button) v.findViewById(R.id.back_btn);
+
+        mStartDateButton = (Button) v.findViewById(R.id.start_date_btn);
+        //temporarily
+        Date dt = new Date();
+        dt.getTime();
+        mStartDateButton.setText(dt.toString());
+
         mShortTitleEditText = (EditText) v.findViewById(R.id.short_title_et);
         mFullTitleEditText = (EditText) v.findViewById(R.id.full_title_et);
         mArchiveNumberEditText = (EditText) v.findViewById(R.id.archive_number_et);
         mRegionEditText = (EditText) v.findViewById(R.id.region_et);
         mNoteEditText = (EditText) v.findViewById(R.id.note_et);
-        mStartDateButton = (Button) v.findViewById(R.id.start_date_btn);
 
         return v;
     }
