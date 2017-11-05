@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 public class ProjectListFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return super.onCreateView(inflater, container, savedInstanceState);
+        View v = inflater.inflate(R.layout.project_list_fragment, container, false);
+        return v;
     }
 }
