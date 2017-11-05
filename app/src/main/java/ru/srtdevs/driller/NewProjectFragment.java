@@ -49,7 +49,6 @@ public class NewProjectFragment extends Fragment {
         mStartDateButton = (Button) v.findViewById(R.id.start_date_btn);
         //temporarily
         Date dt = new Date();
-        dt.getTime();
         mStartDateButton.setText(dt.toString());
         //end temporarily
 
