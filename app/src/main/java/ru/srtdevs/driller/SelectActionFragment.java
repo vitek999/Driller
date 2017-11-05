@@ -37,6 +37,13 @@ public class SelectActionFragment extends Fragment {
         });
 
         mOpenProjectButton = (Button) v.findViewById(R.id.open_project_btn);
+        mOpenProjectButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getContext(), ProjectListActivity.class);
+                startActivity(intent);
+            }
+        });
 
         mLoadProjectButton = (Button) v.findViewById(R.id.load_project_btn);
         mLoadProjectButton.setEnabled(false); //TODO: сделать активным при наличии открытого проекта
