@@ -19,6 +19,9 @@
         <activity android:name=".NewProjectActivity"
             android:label="@string/new_project_title">
         </activity>
+        <activity android:name=".ProjectListActivity"
+            android:label="@string/project_list_title">
+        </activity>
     </application>
 
 </manifest>
